@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>פורים 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        .puzzle-image {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        .answer-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+            cursor: pointer;
+        }
+        .answer-link:hover {
+            background-color: #2980b9;
+        }
+        .hidden-answers {
+            display: none;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            text-align: right;
+        }
+        .contact-section {
+            margin-top: 30px;
+        }
+        .contact-header {
+            color: #3498db;
+            cursor: pointer;
+            text-decoration: underline;
+            margin-bottom: 20px;
+        }
+        .contact-header:hover {
+            color: #2980b9;
+        }
+        .contact-form {
+            max-width: 500px;
+            margin: 30px auto;
+            text-align: right;
+            display: none;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .contact-form textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        .contact-form button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .contact-form button:hover {
+            background-color: #2980b9;
+        }
+        
+        .share-buttons {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .share-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        
+        .share-button:hover {
+            background-color: #2980b9;
+        }
+        
+        .share-button.whatsapp {
+            background-color: #25D366;
+        }
+        
+        .share-button.whatsapp:hover {
+            background-color: #128C7E;
+        }
+        
+        .share-button.telegram {
+            background-color: #0088cc;
+        }
+        
+        .share-button.telegram:hover {
+            background-color: #006699;
+        }
+
+        .share-button.facebook {
+            background-color: #1877f2;
+        }
+        
+        .share-button.facebook:hover {
+            background-color: #1559b8;
+        }
+
+        .share-button.twitter {
+            background-color: #1da1f2;
+        }
+        
+        .share-button.twitter:hover {
+            background-color: #1884c7;
+        }
+
+        .share-button.linkedin {
+            background-color: #0077b5;
+        }
+        
+        .share-button.linkedin:hover {
+            background-color: #005e8f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>פורים 2025</h1>
+        
+        <img src="puzzle_grid.jpg" alt="תמונת פאזל" class="puzzle-image">
+        
+        <div class="share-buttons">
+            <a href="https://wa.me/?text=חידת%20פורים%202025%20-%20https://fun.guedalia.com/puzzle_grid.jpg" 
+               target="_blank" 
+               class="share-button whatsapp">
+               שתף בווטסאפ
+            </a>
+            
+            <a href="https://t.me/share/url?url=https://fun.guedalia.com/puzzle_grid.jpg&text=חידת%20פורים%202025" 
+               target="_blank" 
+               class="share-button telegram">
+               שתף בטלגרם
+            </a>
+
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://fun.guedalia.com/puzzle_grid.jpg" 
+               target="_blank" 
+               class="share-button facebook">
+               שתף בפייסבוק
+            </a>
+
+            <a href="https://twitter.com/intent/tweet?url=https://fun.guedalia.com/puzzle_grid.jpg&text=חידת%20פורים%202025" 
+               target="_blank" 
+               class="share-button twitter">
+               שתף בטוויטר
+            </a>
+
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://fun.guedalia.com/puzzle_grid.jpg&title=חידת%20פורים%202025" 
+               target="_blank" 
+               class="share-button linkedin">
+               שתף בלינקדאין
+            </a>
+            
+            <a href="mailto:?subject=חידת%20פורים%202025&body=https://fun.guedalia.com/puzzle_grid.jpg" 
+               class="share-button">
+               שתף באימייל
+            </a>
+        </div>
+        
+        <div>
+            <a class="answer-link" onclick="toggleAnswers()">לחץ כאן לתשובות</a>
+        </div>
+        
+        <div id="answers" class="hidden-answers">
+            <h2>תשובות:</h2>
+            <p>תמונה 1: אסתר א, יב: וַתְּמָאֵן הַמַּלְכָּה וַשְׁתִּי לָבוֹא בִּדְבַר הַמֶּלֶךְ אֲשֶׁר בְּיַד הַסָּרִיסִים וַיִּקְצֹף הַמֶּלֶךְ מְאֹד <b>וַחֲמָתוֹ בָּעֲרָה בוֹ</b>:</p>
+            <p>תמונה 2: אסתר ג, ז: בַּחֹדֶשׁ הָרִאשׁוֹן הוּא חֹדֶשׁ נִיסָן בִּשְׁנַת שְׁתֵּים עֶשְׂרֵה לַמֶּלֶךְ אֲחַשְׁוֵרוֹשׁ <b>הִפִּיל פּוּר</b> הוּא הַגּוֹרָל לִפְנֵי הָמָן מִיּוֹם לְיוֹם וּמֵחֹדֶשׁ לְחֹדֶשׁ שְׁנֵים עָשָׂר הוּא חֹדֶשׁ אֲדָר:</p>
+            <p>תמונה 3: אסתר ה, י: <b>וַיִּתְאַפַּק הָמָן</b> וַיָּבוֹא אֶל בֵּיתוֹ וַיִּשְׁלַח וַיָּבֵא אֶת אֹהֲבָיו וְאֶת זֶרֶשׁ אִשְׁתּוֹ:</p>
+            <p>תמונה 4: אסתר ה, ג: וַיֹּאמֶר לָהּ הַמֶּלֶךְ <b>מַה לָּךְ אֶסְתֵּר הַמַּלְכָּה וּמַה בַּקָּשָׁתֵךְ עַד חֲצִי הַמַּלְכוּת וְיִנָּתֵן לָךְ</b>:</p>
+            <p>תמונה 5: אסתר א, יב: וַתְּמָאֵן הַמַּלְכָּה וַשְׁתִּי לָבוֹא בִּדְבַר הַמֶּלֶךְ אֲשֶׁר בְּיַד הַסָּרִיסִים <b>וַיִּקְצֹף הַמֶּלֶךְ מְאֹד</b> וַחֲמָתוֹ בָּעֲרָה בוֹ:</p>
+            <p>תמונה 6: אסתר א, א: וַיְהִי בִּימֵי אֲחַשְׁוֵרוֹשׁ הוּא אֲחַשְׁוֵרוֹשׁ הַמֹּלֵךְ <b>מֵהֹדּוּ וְעַד כּוּשׁ שֶׁבַע וְעֶשְׂרִים וּמֵאָה מְדִינָה</b>:</p>
+            <p>תמונה 7: אסתר ו, א: <b>בַּלַּיְלָה הַהוּא נָדְדָה שְׁנַת הַמֶּלֶךְ</b> וַיֹּאמֶר לְהָבִיא אֶת סֵפֶר הַזִּכְרֹנוֹת דִּבְרֵי הַיָּמִים וַיִּהְיוּ נִקְרָאִים לִפְנֵי הַמֶּלֶךְ:</p>
+            <p>תמונה 8: אסתר ב, כא: בַּיָּמִים הָהֵם <b>וּמׇרְדֳּכַי יֹשֵׁב בְּשַׁעַר הַמֶּלֶךְ</b> קָצַף בִּגְתָן וָתֶרֶשׁ שְׁנֵי סָרִיסֵי הַמֶּלֶךְ מִשֹּׁמְרֵי הַסַּף וַיְבַקְשׁוּ לִשְׁלֹחַ יָד בַּמֶּלֶךְ אֲחַשְׁוֵרֹשׁ:</p>
+        </div>
+        
+        <div class="contact-section">
+            <h3 class="contact-header" onclick="toggleContactForm()">צור קשר</h3>
+            
+            <form id="contact-form" class="contact-form" action="https://formspree.io/f/xbldnary" method="POST">
+                <label>
+                    אימייל:
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    הודעה:
+                    <textarea name="message" required></textarea>
+                </label>
+                <button type="submit">שלח</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function toggleAnswers() {
+            const answers = document.getElementById('answers');
+            if (answers.style.display === 'block') {
+                answers.style.display = 'none';
+            } else {
+                answers.style.display = 'block';
+            }
+        }
+        
+        function toggleContactForm() {
+            const form = document.getElementById('contact-form');
+            if (form.style.display === 'block') {
+                form.style.display = 'none';
+            } else {
+                form.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html> 
